@@ -381,6 +381,7 @@ AddOutputFilter chunkFilter
 		<Item Name="MainIdent RT.vi" Type="VI" URL="../MainIdent RT.vi"/>
 		<Item Name="Network Shared Variables.lvlib" Type="Library" URL="../Network Shared Variables.lvlib"/>
 		<Item Name="RT Variables.lvlib" Type="Library" URL="../RT Variables.lvlib"/>
+		<Item Name="radiansConversion.vi" Type="VI" URL="../radiansConversion.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
