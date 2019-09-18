@@ -1,2 +1,2 @@
-negrito: 8275 8383 8266 = 8308
-gris: 6533 6501 6547 = 6527
+negrito: 8417: motor2
+gris: 5888: motor1
