@@ -384,6 +384,7 @@ AddOutputFilter chunkFilter
 		<Item Name="radiansConversion.vi" Type="VI" URL="../radiansConversion.vi"/>
 		<Item Name="TCD.vi" Type="VI" URL="../TCD.vi"/>
 		<Item Name="motorBothSides.vi" Type="VI" URL="../motorBothSides.vi"/>
+		<Item Name="windup&amp;&amp;controlSignal.vi" Type="VI" URL="../windup&amp;&amp;controlSignal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
@@ -545,6 +546,8 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="prefiltro.vi" Type="VI" URL="../prefiltro.vi"/>
+			<Item Name="controlador.vi" Type="VI" URL="../controlador.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
