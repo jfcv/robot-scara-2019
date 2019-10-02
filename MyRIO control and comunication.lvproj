@@ -545,9 +545,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="prefiltro.vi" Type="VI" URL="../prefiltro.vi"/>
-			<Item Name="controlador.vi" Type="VI" URL="../controlador.vi"/>
-			<Item Name="windup&amp;&amp;controlSignal.vi" Type="VI" URL="../windup&amp;&amp;controlSignal.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
