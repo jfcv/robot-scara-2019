@@ -11,6 +11,7 @@
 	<Property Name="varPersistentID:{E547E189-1B93-4230-8156-45164C117B0E}" Type="Ref">/myRIO-1900/Network Shared Variables.lvlib/error IO</Property>
 	<Property Name="varPersistentID:{E90DB59B-9127-4F0F-AC40-3C922435486F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/reader name</Property>
 	<Property Name="varPersistentID:{F5380BFA-32A6-42B9-87E3-B361B687BB6E}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Reset Hombro</Property>
+	<Property Name="varPersistentID:{FD434CAE-1F48-4C0A-9617-A722EA45E053}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Hombro On</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
