@@ -6,9 +6,11 @@
 	<Property Name="varPersistentID:{16EEFD59-6550-42C3-B1CA-52BFF77EF890}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint2</Property>
 	<Property Name="varPersistentID:{34F2E66C-F0AD-4F49-A6C7-4B045FBD2ADD}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Stop RT Loops</Property>
 	<Property Name="varPersistentID:{819A2ABB-9DE6-4186-B3A9-36D9BBA52FA0}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Data</Property>
+	<Property Name="varPersistentID:{90EC238A-36A6-4BF4-8E5B-61C530A8D2D8}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Reset Codo</Property>
 	<Property Name="varPersistentID:{B48399D5-479E-47E6-9003-F894D709768F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint</Property>
 	<Property Name="varPersistentID:{E547E189-1B93-4230-8156-45164C117B0E}" Type="Ref">/myRIO-1900/Network Shared Variables.lvlib/error IO</Property>
 	<Property Name="varPersistentID:{E90DB59B-9127-4F0F-AC40-3C922435486F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/reader name</Property>
+	<Property Name="varPersistentID:{F5380BFA-32A6-42B9-87E3-B361B687BB6E}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Reset Hombro</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
