@@ -388,6 +388,7 @@ AddOutputFilter chunkFilter
 		<Item Name="radiansConversion.vi" Type="VI" URL="../radiansConversion.vi"/>
 		<Item Name="TCD.vi" Type="VI" URL="../TCD.vi"/>
 		<Item Name="motorBothSides.vi" Type="VI" URL="../motorBothSides.vi"/>
+		<Item Name="TCI.vi" Type="VI" URL="../TCI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
