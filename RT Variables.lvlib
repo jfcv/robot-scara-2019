@@ -30,6 +30,17 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"E!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Encoder2" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"E!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Hombro On" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -111,6 +122,17 @@
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="trayectorias1" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"E!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="trayectorias2" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
