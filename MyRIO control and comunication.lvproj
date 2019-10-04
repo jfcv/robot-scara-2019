@@ -8,7 +8,9 @@
 	<Property Name="varPersistentID:{819A2ABB-9DE6-4186-B3A9-36D9BBA52FA0}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Data</Property>
 	<Property Name="varPersistentID:{90EC238A-36A6-4BF4-8E5B-61C530A8D2D8}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Reset Codo</Property>
 	<Property Name="varPersistentID:{B48399D5-479E-47E6-9003-F894D709768F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint</Property>
+	<Property Name="varPersistentID:{DA61BD40-20E2-42D2-9BF5-6BD73ECED699}" Type="Ref">/myRIO-1900/RT Variables.lvlib/trayectorias1</Property>
 	<Property Name="varPersistentID:{E547E189-1B93-4230-8156-45164C117B0E}" Type="Ref">/myRIO-1900/Network Shared Variables.lvlib/error IO</Property>
+	<Property Name="varPersistentID:{E62218F0-2266-4AD0-9E85-E5297CF3F7DA}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Encoder1</Property>
 	<Property Name="varPersistentID:{E90DB59B-9127-4F0F-AC40-3C922435486F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/reader name</Property>
 	<Property Name="varPersistentID:{F5380BFA-32A6-42B9-87E3-B361B687BB6E}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Reset Hombro</Property>
 	<Property Name="varPersistentID:{FD434CAE-1F48-4C0A-9617-A722EA45E053}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Hombro On</Property>
@@ -388,6 +390,8 @@ AddOutputFilter chunkFilter
 		<Item Name="radiansConversion.vi" Type="VI" URL="../radiansConversion.vi"/>
 		<Item Name="TCD.vi" Type="VI" URL="../TCD.vi"/>
 		<Item Name="motorBothSides.vi" Type="VI" URL="../motorBothSides.vi"/>
+		<Item Name="funcionPosicion.vi" Type="VI" URL="../funcionPosicion.vi"/>
+		<Item Name="trayectoriasQuintoOrden.vi" Type="VI" URL="../trayectoriasQuintoOrden.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
