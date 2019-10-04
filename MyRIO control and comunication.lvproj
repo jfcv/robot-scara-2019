@@ -553,6 +553,7 @@ AddOutputFilter chunkFilter
 			<Item Name="prefiltro.vi" Type="VI" URL="../prefiltro.vi"/>
 			<Item Name="controlador.vi" Type="VI" URL="../controlador.vi"/>
 			<Item Name="windup&amp;&amp;controlSignal.vi" Type="VI" URL="../windup&amp;&amp;controlSignal.vi"/>
+			<Item Name="actuatorLimits.vi" Type="VI" URL="../actuatorLimits.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
