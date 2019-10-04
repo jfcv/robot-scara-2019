@@ -4,6 +4,7 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{34F2E66C-F0AD-4F49-A6C7-4B045FBD2ADD}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Stop RT Loops</Property>
+	<Property Name="varPersistentID:{61A4B341-AF23-4819-84DF-3AE0E34A921A}" Type="Ref">/myRIO-1900/RT Variables.lvlib/trayectorias1</Property>
 	<Property Name="varPersistentID:{819A2ABB-9DE6-4186-B3A9-36D9BBA52FA0}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Data</Property>
 	<Property Name="varPersistentID:{B48399D5-479E-47E6-9003-F894D709768F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint</Property>
 	<Property Name="varPersistentID:{E547E189-1B93-4230-8156-45164C117B0E}" Type="Ref">/myRIO-1900/Network Shared Variables.lvlib/error IO</Property>
@@ -548,6 +549,8 @@ AddOutputFilter chunkFilter
 			<Item Name="prefiltro.vi" Type="VI" URL="../prefiltro.vi"/>
 			<Item Name="controlador.vi" Type="VI" URL="../controlador.vi"/>
 			<Item Name="windup&amp;&amp;controlSignal.vi" Type="VI" URL="../windup&amp;&amp;controlSignal.vi"/>
+			<Item Name="funcionPosicion.vi" Type="VI" URL="../funcionPosicion.vi"/>
+			<Item Name="trayectoriasQuintoOrden.vi" Type="VI" URL="../trayectoriasQuintoOrden.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
