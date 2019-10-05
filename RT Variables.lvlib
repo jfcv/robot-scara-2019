@@ -85,6 +85,20 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="output cluster" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">100</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%A(!%!!"E!A!!!!!!+!"Z!6!!'&amp;H.F9W^O:(-A=WFO9W5A-5JB&lt;D%Z-$1!!!5!#A!!#5!+!!*V;Q!!&amp;5!+!!^T:82Q&lt;WFO&gt;#!I=G&amp;E=SE!&amp;5!+!!ZF&lt;G.P:'6S)#BS972T+1!!#U!+!!6F=H*P=A!*1!I!!H"Y!!!*1!I!!H"Z!!!;1#%6:H6F=G&amp;&amp;=X"B9WFP2'65=G&amp;C97JP!"Y!5!!-!!!!!1!"!!)!!1!$!!1!!A!&amp;!!9!"Q!)!!%!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="reader name" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>

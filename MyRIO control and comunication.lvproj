@@ -6,6 +6,7 @@
 	<Property Name="varPersistentID:{16EEFD59-6550-42C3-B1CA-52BFF77EF890}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint2</Property>
 	<Property Name="varPersistentID:{34F2E66C-F0AD-4F49-A6C7-4B045FBD2ADD}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Stop RT Loops</Property>
 	<Property Name="varPersistentID:{5908B18D-F546-47E6-88A7-AFEBB15EA987}" Type="Ref">/myRIO-1900/RT Variables.lvlib/theta2</Property>
+	<Property Name="varPersistentID:{69CB62C3-D421-47B1-8B3E-E3FF6E9D5219}" Type="Ref">/myRIO-1900/RT Variables.lvlib/output cluster</Property>
 	<Property Name="varPersistentID:{819A2ABB-9DE6-4186-B3A9-36D9BBA52FA0}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Data</Property>
 	<Property Name="varPersistentID:{8DA954B7-4804-4621-9C51-C84DBDD6F816}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Encoder2</Property>
 	<Property Name="varPersistentID:{90EC238A-36A6-4BF4-8E5B-61C530A8D2D8}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Reset Codo</Property>
