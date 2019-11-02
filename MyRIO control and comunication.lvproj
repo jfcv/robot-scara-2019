@@ -407,6 +407,7 @@ AddOutputFilter chunkFilter
 		<Item Name="funcionPosicion.vi" Type="VI" URL="../funcionPosicion.vi"/>
 		<Item Name="trayectoriasQuintoOrden.vi" Type="VI" URL="../trayectoriasQuintoOrden.vi"/>
 		<Item Name="controlArticular.vi" Type="VI" URL="../controlArticular.vi"/>
+		<Item Name="data2.csv" Type="Document" URL="../data2.csv"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
