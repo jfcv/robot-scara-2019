@@ -3,6 +3,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{05A02E8E-9910-4162-AC33-0F7145E12829}" Type="Ref">/myRIO-1900/RT Variables.lvlib/variableTrajectory</Property>
+	<Property Name="varPersistentID:{151B8732-B091-4DC1-9563-31DF631B95C0}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Theta2Trajectory</Property>
 	<Property Name="varPersistentID:{16EEFD59-6550-42C3-B1CA-52BFF77EF890}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint2</Property>
 	<Property Name="varPersistentID:{2E93947D-E9EC-4885-844F-23083EA7115C}" Type="Ref">/myRIO-1900/RT Variables.lvlib/tiempoArticular</Property>
 	<Property Name="varPersistentID:{34F2E66C-F0AD-4F49-A6C7-4B045FBD2ADD}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Stop RT Loops</Property>
@@ -16,8 +18,10 @@
 	<Property Name="varPersistentID:{99B82270-20EC-44B1-A6D2-A6588E3F46E5}" Type="Ref">/myRIO-1900/RT Variables.lvlib/theta2Articular</Property>
 	<Property Name="varPersistentID:{A4ED1DF4-58F8-4340-B865-9F1A6E9661F7}" Type="Ref">/myRIO-1900/RT Variables.lvlib/codo arriba</Property>
 	<Property Name="varPersistentID:{AB08B054-116E-495A-A136-08D8C2FAB7FE}" Type="Ref">/myRIO-1900/RT Variables.lvlib/theta1Articular</Property>
+	<Property Name="varPersistentID:{B2965125-E143-47BE-B9C0-9ABEEC2C89DF}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Theta1Trajectory</Property>
 	<Property Name="varPersistentID:{B48399D5-479E-47E6-9003-F894D709768F}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint</Property>
 	<Property Name="varPersistentID:{C6EFE6DE-0720-4860-BD69-D0FA638BAE90}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Encoder1</Property>
+	<Property Name="varPersistentID:{CEC4A1A6-0E73-469D-9663-DBB79B848895}" Type="Ref">/myRIO-1900/RT Variables.lvlib/controlOff</Property>
 	<Property Name="varPersistentID:{DD0E7311-D783-413B-9271-1A4447EFDE1B}" Type="Ref">/myRIO-1900/RT Variables.lvlib/enviar coordenadas</Property>
 	<Property Name="varPersistentID:{DEAC0C7B-A605-4020-97F9-611502AD9D54}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Trayectorias1</Property>
 	<Property Name="varPersistentID:{E547E189-1B93-4230-8156-45164C117B0E}" Type="Ref">/myRIO-1900/Network Shared Variables.lvlib/error IO</Property>
@@ -49,7 +53,6 @@
 			<Item Name="Architecture.PNG" Type="Document" URL="../documentation/Architecture.PNG"/>
 		</Item>
 		<Item Name="Main IU.vi" Type="VI" URL="../Main IU.vi"/>
-		<Item Name="Untitled 2" Type="VI"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -131,6 +134,7 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="dataModel.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/dataModel.ctl"/>
@@ -265,6 +269,12 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (DBL).vi"/>
@@ -305,7 +315,12 @@
 				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
@@ -407,7 +422,6 @@ AddOutputFilter chunkFilter
 		<Item Name="funcionPosicion.vi" Type="VI" URL="../funcionPosicion.vi"/>
 		<Item Name="trayectoriasQuintoOrden.vi" Type="VI" URL="../trayectoriasQuintoOrden.vi"/>
 		<Item Name="controlArticular.vi" Type="VI" URL="../controlArticular.vi"/>
-		<Item Name="data2.csv" Type="Document" URL="../data2.csv"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
