@@ -6,6 +6,8 @@
 	<Property Name="varPersistentID:{05A02E8E-9910-4162-AC33-0F7145E12829}" Type="Ref">/myRIO-1900/RT Variables.lvlib/variableTrajectory</Property>
 	<Property Name="varPersistentID:{151B8732-B091-4DC1-9563-31DF631B95C0}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Theta2Trajectory</Property>
 	<Property Name="varPersistentID:{16EEFD59-6550-42C3-B1CA-52BFF77EF890}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Setpoint2</Property>
+	<Property Name="varPersistentID:{242314DE-D153-41C5-84FF-F4BB5044DFB8}" Type="Ref">/myRIO-1900/RT Variables.lvlib/servoVertical</Property>
+	<Property Name="varPersistentID:{2B3DAC8A-3B25-45C2-ADE5-B96A07E871BB}" Type="Ref">/myRIO-1900/RT Variables.lvlib/servoHorizontal</Property>
 	<Property Name="varPersistentID:{2E93947D-E9EC-4885-844F-23083EA7115C}" Type="Ref">/myRIO-1900/RT Variables.lvlib/tiempoArticular</Property>
 	<Property Name="varPersistentID:{34F2E66C-F0AD-4F49-A6C7-4B045FBD2ADD}" Type="Ref">/myRIO-1900/RT Variables.lvlib/Stop RT Loops</Property>
 	<Property Name="varPersistentID:{5908B18D-F546-47E6-88A7-AFEBB15EA987}" Type="Ref">/myRIO-1900/RT Variables.lvlib/theta2</Property>
